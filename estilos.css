@@ -10,12 +10,13 @@ header{
     background-image: url(img/bg-header-desktop.png);
     background-repeat: no-repeat;
 }
-header div{
+header{
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 header div img{
     width: 15rem;
@@ -26,4 +27,27 @@ header div h1{
 }
 header div p{
     font-size: 2rem;
+}
+
+header nav a:first-child{
+    text-decoration: none;
+    color: black;
+    background-color: lightgreen;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 0 2rem;
+    font-size: 2rem;
+}
+header nav a:last-child{
+    text-decoration: none;
+    color: black;
+    background-color: lightcoral;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 0 2rem;
+    font-size: 2rem;
+}
+header nav{
+    margin-top: 5rem;
+    
 }
