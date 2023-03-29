@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    padding: 3rem;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-1 div:last-child{
+    margin-left: 2rem;
+}
+.footer-1 div:last-child a{
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.footer-1 img{
+    width: 4rem;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.footer-2 a{
+    margin: 0 1rem;
+}
