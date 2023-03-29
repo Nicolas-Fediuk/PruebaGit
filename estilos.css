@@ -11,6 +11,7 @@ html{
 header{
     background-image: url(img/bg-header-desktop.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     height: 100vh;
@@ -134,6 +135,7 @@ footer{
     padding: 3rem;
     justify-content: space-around;
     width: 100%;
+    margin-top: 10rem;
 }
 
 .footer-1{
